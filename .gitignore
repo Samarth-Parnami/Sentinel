@@ -1,0 +1,19 @@
+# .gitignore docs https://git-scm.com/docs/gitignore
+
+# Ignore all files and folders starting with a dot
+.*
+
+# Ignore all folders named __pycache__
+**/__pycache__
+
+
+# ######################
+# Excluded from ignore #
+# ######################
+
+
+# Github Worklfows
+!.github/**
+
+# .gitignore file
+!.gitignore
